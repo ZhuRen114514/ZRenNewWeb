@@ -32,8 +32,13 @@ export default defineConfig({
       copyright: "© 2024 ZRenTech 主人科技"
     },
 
-    //侧边栏标题
-    outlineTitle: '页面目录'
+    //翻译部分英文界面
+    outlineTitle: '页面目录',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    backToTopText: '返回顶部'
   }
 })
 
