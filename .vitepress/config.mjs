@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/ZRenNewWeb/",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
   title: "ZRenTech",
   description: "欢迎你的到来",
@@ -32,8 +33,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ZhuRen114514' },
-      { icon: 'bilibili', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ZhuRen114514' }
     ],
 
     footer: {
