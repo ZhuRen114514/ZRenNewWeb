@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/ZRenNewWeb/",
+  //base: "/ZRenNewWeb/",
   head: [["link", { rel: "icon", href: "/logo256.ico" }]],
   title: "ZRenTech",
   description: "欢迎您的到来",
