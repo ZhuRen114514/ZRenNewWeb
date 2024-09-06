@@ -10,6 +10,20 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
 
+    
+    //翻译部分英文界面
+    outlineTitle: '页面目录',
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    backToTopText: '返回顶部',
+    appearance: {
+      toggleLabel: '切换外观',  // 设置切换外观的文本
+      darkModeTitle: '深色模式',  // 深色模式的文本
+      lightModeTitle: '浅色模式',  // 浅色模式的文本
+    },
+
     nav: [
       {text:"首页", link:"/"},
       { text: '旧版页面', items: [
@@ -32,13 +46,6 @@ export default defineConfig({
       copyright: "© 2024 ZRenTech 主人科技"
     },
 
-    //翻译部分英文界面
-    outlineTitle: '页面目录',
-    docFooter: {
-      prev: '上一页',
-      next: '下一页'
-    },
-    backToTopText: '返回顶部'
   }
 })
 
