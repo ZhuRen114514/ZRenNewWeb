@@ -1,0 +1,7 @@
+/* 设置左上角ZRenTech左边logo的圆角 */
+.VPNavBar .logo {
+    border-radius: 30%; /* 设置圆角，值可以调整 */
+    max-width: 25px; /* 根据需要调整大小 */
+    height: auto; /* 保持比例 */
+  }
+  
