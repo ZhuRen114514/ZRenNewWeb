@@ -5,7 +5,7 @@ export default defineConfig({
   base: "/ZRenNewWeb/",
   head: [["link", { rel: "icon", href: "/logo256.ico" }]],
   title: "ZRenTech",
-  description: "欢迎你的到来",
+  description: "欢迎您的到来",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
@@ -17,19 +17,9 @@ export default defineConfig({
         {text: "主人科技原版主页", link: "https://www.zren.top"}
       ]},
       { text: '使用教程', items: [
-        {text: "示例", link: "/markdown-examples.md"},
-        {text: "API 示例", link: "/api-examples"}
+        {text: "无", link: "/"},
+        {text: "无", link: "/"}
       ]}
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
     ],
 
     socialLinks: [

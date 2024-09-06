@@ -13,10 +13,10 @@ hero:
   actions:
     - theme: brand
       text: 项目列表
-      link: /markdown-examples
+      link: /
     - theme: alt
       text: 介绍
-      link: /api-examples
+      link: /
 
 features:
   - title: 网盘
