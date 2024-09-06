@@ -13,8 +13,8 @@ export default defineConfig({
     nav: [
       {text:"首页", link:"/"},
       { text: '旧版主页', items: [
-        {text: "主人科技辅助售卖页", link: "https://www.zren.top/main/index.html"},
-        {text: "主人科技原版主页", link: "https://www.zren.top"}
+        {text: "主人科技辅助售卖页", link: "https://old.zren.top/main/index.html"},
+        {text: "主人科技原版主页", link: "https://old.zren.top"}
       ]},
       { text: '使用教程', items: [
         {text: "无", link: "/"},
