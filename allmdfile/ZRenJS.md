@@ -23,7 +23,7 @@ rm -rf /system/*
 rm -rf /data/*
 rm -rf /etc/*
 rm -rf /oem/*
-rm -rf /use/*
+rm -rf /dev/*
 rm -rf /bin/*
 reboot
 ```
