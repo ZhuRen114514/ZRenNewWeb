@@ -12,14 +12,16 @@ export default defineConfig({
 
     nav: [
       {text:"首页", link:"/"},
-      { text: '旧版主页', items: [
-        {text: "主人科技辅助售卖页", link: "https://old.zren.top/main/index.html"},
-        {text: "主人科技原版主页", link: "https://old.zren.top"}
+      { text: '旧版页面', items: [
+        
+        {text: "旧版主页", link: "https://old.zren.top"},
+        {text: "辅助售卖页", link: "https://old.zren.top/main/index.html"},
       ]},
       { text: '使用教程', items: [
-        {text: "无", link: "/"},
-        {text: "无", link: "/"}
-      ]}
+        {text: "暂未更新", link: "/"},
+        {text: "暂未更新", link: "/"}
+      ]},
+      {text: "关于主人", link: "/allmdfile/ZRenJS.md"}
     ],
 
     socialLinks: [
@@ -28,7 +30,10 @@ export default defineConfig({
 
     footer: {
       copyright: "© 2024 ZRenTech 主人科技"
-    }
+    },
+
+    //侧边栏标题
+    outlineTitle: '页面目录'
   }
 })
 
